@@ -1,0 +1,576 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ACRIC · Associação das Crianças de Castelo</title>
+  <meta name="description" content="Há mais de 35 anos, a ACRIC acolhe mais de 100 crianças e adolescentes de 6 a 15 anos no contraturno escolar, em Castelo-ES: almoço, lanche e oficinas. Saiba como doar.">
+  <meta name="theme-color" content="#23224A">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:title" content="ACRIC · Associação das Crianças de Castelo">
+  <meta property="og:description" content="Um lugar seguro depois da escola para mais de 100 crianças de Castelo-ES, há mais de 35 anos.">
+  <meta property="og:image" content="assets/fotos/grupo-sede.webp">
+  <link rel="icon" type="image/png" href="assets/favicon-64.png">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <link rel="preload" href="assets/fonts/big-shoulders.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/atkinson-next.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/style.css">
+  <script>
+    // Marca a página antes do primeiro desenho: com JS e movimento permitido, a abertura
+    // espera a animação; se o GSAP não carregar, o aviso some sozinho e nada fica escondido.
+    (function () {
+      var raiz = document.documentElement;
+      raiz.classList.add('js');
+      if (window.matchMedia && window.matchMedia('(prefers-reduced-motion: no-preference)').matches) {
+        raiz.classList.add('anim-pendente');
+        setTimeout(function () { raiz.classList.remove('anim-pendente'); }, 3000);
+      }
+    })();
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "NGO",
+    "name": "Associação das Crianças de Castelo",
+    "alternateName": "ACRIC",
+    "description": "Organização da Sociedade Civil sem fins lucrativos que acolhe crianças e adolescentes de 6 a 15 anos no contraturno escolar em Castelo-ES.",
+    "taxID": "31.726.755/0001-00",
+    "email": "acriccastelo@gmail.com",
+    "telephone": ["+55 28 3542-2409", "+55 28 99917-6952"],
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Av. João Venturim Filho, 2165 - Cava Roxa",
+      "addressLocality": "Castelo",
+      "addressRegion": "ES",
+      "postalCode": "29360-000",
+      "addressCountry": "BR"
+    },
+    "sameAs": ["https://www.instagram.com/acriccastelo/"]
+  }
+  </script>
+</head>
+<body>
+  <a class="pular" href="#conteudo">Pular para o conteúdo</a>
+
+  <svg class="icones" aria-hidden="true" focusable="false">
+    <symbol id="i-seta" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+    <symbol id="i-copiar" viewBox="0 0 24 24"><rect x="9" y="9" width="12" height="12" rx="1.5"/><path d="M5 15H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v1"/></symbol>
+    <symbol id="i-ok" viewBox="0 0 24 24"><path d="M4 12.5l5 5L20 6.5"/></symbol>
+    <symbol id="i-telefone" viewBox="0 0 24 24"><path d="M5 3h3.5l1.8 4.6-2.4 1.6a11 11 0 0 0 6 6l1.6-2.4L20 14.5V18a2 2 0 0 1-2 2A16 16 0 0 1 3 5a2 2 0 0 1 2-2z"/></symbol>
+    <symbol id="i-email" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="1.5"/><path d="M3.5 6l8.5 7 8.5-7"/></symbol>
+    <symbol id="i-instagram" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><path d="M17.5 6.5h.01"/></symbol>
+    <symbol id="i-pino" viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></symbol>
+    <symbol id="i-relogio" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+    <symbol id="i-externo" viewBox="0 0 24 24"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+    <symbol id="i-fechar" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></symbol>
+  </svg>
+
+  <header class="topo" id="topo">
+    <div class="topo__faixa">
+      <a class="marca" href="#inicio" aria-label="ACRIC, Associação das Crianças de Castelo: voltar ao início">
+        <img class="marca__logo" src="assets/logo-acric-branco.webp" alt="" width="600" height="600">
+        <span class="marca__sigla">ACRIC</span>
+        <span class="marca__nome">Associação das Crianças<br>de Castelo</span>
+      </a>
+      <nav class="topo__nav" aria-label="Seções">
+        <ul>
+          <li><a href="#quem-somos">Quem somos</a></li>
+          <li><a href="#oficinas">Oficinas</a></li>
+          <li><a href="#doar">Como doar</a></li>
+          <li><a href="#diretoria">Diretoria</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+      <a class="botao botao--doar botao--compacto" href="#doar">Doar</a>
+      <button class="menu-botao" type="button" aria-expanded="false" aria-controls="menu-movel">
+        <svg class="icone" aria-hidden="true"><use href="#i-menu"/></svg>
+        <span>Menu</span>
+      </button>
+    </div>
+  </header>
+
+  <div class="menu-movel quadra" id="menu-movel" hidden>
+    <button class="menu-movel__fechar" type="button" aria-label="Fechar menu">
+      <svg class="icone" aria-hidden="true"><use href="#i-fechar"/></svg>
+    </button>
+    <nav aria-label="Seções">
+      <ul>
+        <li><a href="#quem-somos">Quem somos</a></li>
+        <li><a href="#oficinas">Oficinas</a></li>
+        <li><a href="#doar">Como doar</a></li>
+        <li><a href="#diretoria">Diretoria</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+    <a class="botao botao--doar" href="#doar">Quero ajudar <svg class="icone" aria-hidden="true"><use href="#i-seta"/></svg></a>
+  </div>
+
+  <main id="conteudo">
+    <!-- Abertura: o centro da quadra -->
+    <section class="abertura quadra" id="inicio" aria-labelledby="abertura-titulo">
+      <svg class="quadra-desenho" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
+        <g class="quadra-desenho__giro">
+          <g class="linhas linhas--verde">
+            <path class="traco traco--tracejado" d="M169.4 80 A333 333 0 0 1 393 394.5 V505.5 A333 333 0 0 1 169.4 820"/>
+            <path class="traco traco--tracejado" d="M1430.6 80 A333 333 0 0 0 1207 394.5 V505.5 A333 333 0 0 0 1430.6 820"/>
+          </g>
+          <g class="linhas linhas--vermelha">
+            <path class="traco" d="M467 283.5 H1133 V616.5 H467 Z"/>
+            <path class="traco" d="M689 283.5 V616.5"/>
+            <path class="traco" d="M911 283.5 V616.5"/>
+          </g>
+          <g class="linhas linhas--amarela">
+            <path class="traco" d="M282 172.5 H1318 V727.5 H282 Z"/>
+            <path class="traco" d="M282 359.5 H497 V540.5 H282"/>
+            <path class="traco" d="M1318 359.5 H1103 V540.5 H1318"/>
+            <path class="traco" d="M497 383.4 A66.6 66.6 0 0 1 497 516.6"/>
+            <path class="traco traco--tracejado" d="M497 516.6 A66.6 66.6 0 0 1 497 383.4"/>
+            <path class="traco" d="M1103 383.4 A66.6 66.6 0 0 0 1103 516.6"/>
+            <path class="traco traco--tracejado" d="M1103 516.6 A66.6 66.6 0 0 0 1103 383.4"/>
+            <path class="traco" d="M282 205.8 H393.8 A250 250 0 0 1 393.8 694.2 H282"/>
+            <path class="traco" d="M1318 205.8 H1206.2 A250 250 0 0 0 1206.2 694.2 H1318"/>
+          </g>
+          <g class="linhas linhas--branca">
+            <path class="traco" d="M60 80 H1540 V820 H60 Z"/>
+            <path class="traco" d="M800 80 V820"/>
+            <path class="traco" d="M60 172.5 A222 222 0 0 1 282 394.5 V505.5 A222 222 0 0 1 60 727.5"/>
+            <path class="traco" d="M1540 172.5 A222 222 0 0 0 1318 394.5 V505.5 A222 222 0 0 0 1540 727.5"/>
+            <path class="traco" d="M60 394.5 H23 V505.5 H60"/>
+            <path class="traco" d="M1540 394.5 H1577 V505.5 H1540"/>
+            <path class="traco" d="M430 820 v18 M615 820 v18 M985 820 v18 M1170 820 v18"/>
+            <circle class="ponto" cx="282" cy="450" r="6"/>
+            <circle class="ponto" cx="430" cy="450" r="6"/>
+            <circle class="ponto" cx="1318" cy="450" r="6"/>
+            <circle class="ponto" cx="1170" cy="450" r="6"/>
+          </g>
+          <g class="circulo-central">
+            <circle class="circulo-central__fundo" cx="800" cy="450" r="104"/>
+            <image class="circulo-central__logo" href="assets/logo-acric-indigo.webp" x="710" y="360" width="180" height="180"/>
+            <circle class="traco circulo-central__anel" cx="800" cy="450" r="111"/>
+          </g>
+        </g>
+      </svg>
+
+      <div class="abertura__conteudo">
+        <div class="abertura__texto">
+          <h1 class="abertura__titulo" id="abertura-titulo">Um lugar seguro depois da escola.</h1>
+          <p class="abertura__lead">Há mais de 35 anos, a ACRIC acolhe crianças e adolescentes de 6 a 15 anos no contraturno escolar, em Castelo-ES. Almoço, lanche e oficinas, de segunda a sexta.</p>
+          <div class="placar" role="group" aria-label="Atendimento de segunda a sexta">
+            <p class="placar__placa" aria-hidden="true">Seg a sex · contraturno</p>
+            <div class="placar__celulas">
+              <p class="placar__celula"><span class="placar__rotulo">Chegada</span> <span class="placar__valor" data-segmentos="11:30">11h30</span></p>
+              <p class="placar__celula"><span class="placar__rotulo">Saída</span> <span class="placar__valor" data-segmentos="16:00">16h00</span></p>
+              <p class="placar__celula"><span class="placar__rotulo">Idade</span> <span class="placar__valor" data-segmentos="06-15">6 a 15 anos</span></p>
+            </div>
+          </div>
+        </div>
+        <div class="abertura__lado">
+          <figure class="abertura__foto">
+            <img src="assets/fotos/grupo-sede.webp" width="1280" height="960" fetchpriority="high"
+                 alt="Dezenas de crianças da ACRIC, de camiseta branca e short azul, posam diante da sede num dia de céu azul.">
+          </figure>
+          <div class="abertura__acoes">
+            <a class="botao botao--doar" href="#doar">Quero ajudar <svg class="icone" aria-hidden="true"><use href="#i-seta"/></svg></a>
+            <button class="botao botao--linha" type="button" data-copiar="31726755000100" data-rotulo-ok="Chave PIX copiada">
+              <svg class="icone icone--copiar" aria-hidden="true"><use href="#i-copiar"/></svg>
+              <svg class="icone icone--ok" aria-hidden="true"><use href="#i-ok"/></svg>
+              <span class="botao__texto">Copiar chave PIX</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Quem somos: fora da quadra, no cimento -->
+    <section class="quem cimento" id="quem-somos" aria-labelledby="quem-titulo">
+      <div class="envelope quem__grade">
+        <header class="quem__cabeca">
+          <h2 class="titulo-secao" id="quem-titulo">Há mais de 35 anos no contraturno de Castelo</h2>
+        </header>
+
+        <div class="quem__coluna quem__coluna--a">
+          <figure class="quem__foto quadro">
+            <img src="assets/fotos/plantio.webp" width="884" height="1034" loading="lazy" decoding="async" data-paralaxe
+                 alt="Crianças da ACRIC sorriem agachadas em volta de uma muda recém-plantada, com árvores ao fundo.">
+          </figure>
+
+          <dl class="fatos" data-marca="lateral">
+            <div class="fatos__item"><dt>Sede própria</dt><dd>Cava Roxa, Castelo-ES</dd></div>
+            <div class="fatos__item"><dt>Atendimento</dt><dd>Seg. a sex., 11h30 às 16h00</dd></div>
+            <div class="fatos__item"><dt>Idade</dt><dd>6 a 15 anos</dd></div>
+            <div class="fatos__item"><dt>Serviço</dt><dd>SCFV · Resolução CNAS 109/2009</dd></div>
+            <div class="fatos__item"><dt>Reconhecimento</dt><dd>Duas vezes Criança Esperança</dd></div>
+          </dl>
+        </div>
+
+        <div class="quem__coluna quem__coluna--b">
+          <blockquote class="missao">
+            <p>“Acolher e assistir crianças e adolescentes em situação de vulnerabilidade e risco social, contribuindo para o desenvolvimento social, cultural, cognitivo e pessoal, oferecendo novas oportunidades a fim de despertar habilidades, sonhos e afastá-los dos riscos sociais.”</p>
+            <footer>Missão da ACRIC</footer>
+          </blockquote>
+
+          <div class="quem__texto">
+            <p>A Associação das Crianças de Castelo (ACRIC) é uma Organização da Sociedade Civil sem fins lucrativos, com sede própria no bairro Cava Roxa.</p>
+            <p>Atendemos mais de 100 crianças e adolescentes de 6 a 15 anos, de segunda a sexta, no contraturno escolar, das 11h30 às 16h00. Oferecemos o Serviço de Convivência e Fortalecimento de Vínculos (SCFV), como preconiza a Tipificação Nacional dos Serviços Socioassistenciais (Resolução CNAS nº 109, de 11 de novembro de 2009).</p>
+            <p>Todos os dias servimos almoço e lanche da tarde, garantindo a segurança alimentar e nutricional das crianças. E, enquanto elas estão num lugar seguro e aprendendo, as famílias podem seguir no trabalho.</p>
+            <p>Por esse trabalho, a ACRIC já foi contemplada duas vezes pelo Criança Esperança. Venha conhecer a nossa entidade e o serviço que oferecemos às crianças e aos adolescentes do município.</p>
+        </div>
+
+        <figure class="quem__sede">
+          <div class="quadro quadro--paisagem">
+            <img src="assets/fotos/sede-aerea-1.webp" width="677" height="408" loading="lazy" decoding="async" data-paralaxe
+                 alt="Vista aérea da sede da ACRIC: pavilhões brancos com telhado de cerâmica vermelha à beira de uma estrada, entre morros.">
+          </div>
+          <figcaption>Sede própria, vista de cima, na Av. João Venturim Filho.</figcaption>
+        </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- Oficinas: de volta à quadra, linha amarela -->
+    <section class="oficinas quadra" id="oficinas" aria-labelledby="oficinas-titulo">
+      <div class="envelope">
+        <header class="oficinas__cabeca">
+          <h2 class="titulo-secao" id="oficinas-titulo">O que acontece no contraturno</h2>
+          <p class="lead">Almoço e lanche todos os dias, e oficinas para aprender, criar, se mexer e brincar.</p>
+        </header>
+
+        <ul class="oficinas__grade" role="list">
+          <li class="oficina oficina--destaque" data-marca="garrafao">
+            <div class="quadro"><img src="assets/oficinas/almoco-e-lanche.webp" width="1066" height="1066" loading="lazy" decoding="async" data-paralaxe
+                 alt="Crianças almoçam em mesas compridas no refeitório da ACRIC."></div>
+            <div class="placa">
+              <h3 class="placa__nome">Almoço e lanche da tarde</h3>
+              <p class="placa__quem"><span class="placa__cor" aria-hidden="true"></span>ACRIC · todos os dias</p>
+              <p class="placa__linha">No refeitório, garantindo a segurança alimentar e nutricional de quem está crescendo.</p>
+            </div>
+          </li>
+          <li class="oficina">
+            <div class="quadro"><img src="assets/oficinas/informatica.webp" width="394" height="394" loading="lazy" decoding="async" data-paralaxe
+                 alt="Crianças usam computadores na sala de informática."></div>
+            <div class="placa">
+              <h3 class="placa__nome">Informática</h3>
+              <p class="placa__quem"><span class="placa__cor" aria-hidden="true"></span>ACRIC</p>
+              <p class="placa__linha">Cada criança no seu computador.</p>
+            </div>
+          </li>
+          <li class="oficina">
+            <div class="quadro"><img src="assets/oficinas/cultura-e-ludicidade.webp" width="393" height="394" loading="lazy" decoding="async" data-paralaxe
+                 alt="Crianças escrevem em mesas redondas ao lado de uma estante de livros e bichos de pelúcia."></div>
+            <div class="placa">
+              <h3 class="placa__nome">Cultura e Ludicidade</h3>
+              <p class="placa__quem"><span class="placa__cor" aria-hidden="true"></span>ACRIC</p>
+              <p class="placa__linha">Leitura e escrita em mesas redondas, perto da estante.</p>
+            </div>
+          </li>
+          <li class="oficina">
+            <div class="quadro"><img src="assets/oficinas/jogos-pedagogicos.webp" width="393" height="394" loading="lazy" decoding="async" data-paralaxe
+                 alt="Quatro crianças jogam um jogo de mesa."></div>
+            <div class="placa">
+              <h3 class="placa__nome">Jogos Pedagógicos</h3>
+              <p class="placa__quem"><span class="placa__cor" aria-hidden="true"></span>ACRIC</p>
+              <p class="placa__linha">Jogos de mesa em grupo.</p>
+            </div>
+          </li>
+          <li class="oficina">
+            <div class="quadro"><img src="assets/oficinas/esporte.webp" width="393" height="394" loading="lazy" decoding="async" data-paralaxe
+                 alt="Uma menina salta entre bambolês no gramado, observada pelo professor e pelos colegas em fila."></div>
+            <div class="placa">
+              <h3 class="placa__nome">Esporte</h3>
+              <p class="placa__quem"><span class="placa__cor" aria-hidden="true"></span>ACRIC</p>
+              <p class="placa__linha">Circuito de bambolês no gramado.</p>
+            </div>
+          </li>
+          <li class="oficina">
+            <div class="quadro"><img src="assets/oficinas/recreacao.webp" width="393" height="394" loading="lazy" decoding="async" data-paralaxe
+                 alt="Crianças jogam pingue-pongue em duas mesas."></div>
+            <div class="placa">
+              <h3 class="placa__nome">Recreação</h3>
+              <p class="placa__quem"><span class="placa__cor" aria-hidden="true"></span>ACRIC</p>
+              <p class="placa__linha">Pingue-pongue e brincadeira livre.</p>
+            </div>
+          </li>
+          <li class="oficina">
+            <div class="quadro"><img src="assets/oficinas/danca.webp" width="394" height="394" loading="lazy" decoding="async" data-paralaxe
+                 alt="Crianças fazem alongamento sentadas no chão de um salão."></div>
+            <div class="placa">
+              <h3 class="placa__nome">Dança</h3>
+              <p class="placa__quem"><span class="placa__cor" aria-hidden="true"></span>ACRIC</p>
+              <p class="placa__linha">Alongamento e movimento no salão.</p>
+            </div>
+          </li>
+          <li class="oficina">
+            <div class="quadro"><img src="assets/oficinas/artes.webp" width="332" height="332" loading="lazy" decoding="async" data-paralaxe
+                 alt="Crianças sentadas em roda erguem peças de madeira durante a oficina."></div>
+            <div class="placa">
+              <h3 class="placa__nome">Artes</h3>
+              <p class="placa__quem"><span class="placa__cor" aria-hidden="true"></span>ACRIC</p>
+              <p class="placa__linha">Criação com as mãos, em roda.</p>
+            </div>
+          </li>
+          <li class="oficina">
+            <div class="quadro"><img src="assets/oficinas/teatro.webp" width="414" height="414" loading="lazy" decoding="async" data-paralaxe
+                 alt="Crianças de mãos dadas fazem uma roda no salão enquanto outras assistem sentadas."></div>
+            <div class="placa">
+              <h3 class="placa__nome">Teatro</h3>
+              <p class="placa__quem"><span class="placa__cor" aria-hidden="true"></span>ACRIC</p>
+              <p class="placa__linha">Roda de mãos dadas e plateia atenta.</p>
+            </div>
+          </li>
+          <li class="oficina oficina--sala">
+            <div class="quadro"><img src="assets/oficinas/sala-de-video.webp" width="333" height="334" loading="lazy" decoding="async" data-paralaxe
+                 alt="Crianças sentadas em cadeiras enfileiradas na sala de vídeo."></div>
+            <div class="placa">
+              <h3 class="placa__nome">Sala de Vídeo</h3>
+              <p class="placa__quem"><span class="placa__cor" aria-hidden="true"></span>ACRIC</p>
+              <p class="placa__linha">A turma sentada em fila para a sessão.</p>
+            </div>
+          </li>
+          <li class="oficina oficina--larga">
+            <div class="quadro-par">
+              <div class="quadro"><img src="assets/oficinas/brinquedoteca-1.webp" width="443" height="444" loading="lazy" decoding="async" data-paralaxe
+                   alt="Meninas escolhem bonecas e bichos de pelúcia nas estantes da brinquedoteca."></div>
+              <div class="quadro"><img src="assets/oficinas/brinquedoteca-2.webp" width="475" height="476" loading="lazy" decoding="async" data-paralaxe
+                   alt="Meninos brincam perto das estantes de brinquedos e de uma mesa de pebolim."></div>
+            </div>
+            <div class="placa">
+              <h3 class="placa__nome">Brinquedoteca</h3>
+              <p class="placa__quem"><span class="placa__cor" aria-hidden="true"></span>ACRIC</p>
+              <p class="placa__linha">Bonecas, bichos de pelúcia, carrinhos e pebolim.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Rochativa: o garrafão índigo, linha vermelha de vôlei -->
+    <section class="rochativa garrafao-fundo" id="rochativa" aria-labelledby="rochativa-titulo">
+      <div class="envelope">
+        <header class="rochativa__cabeca">
+          <h2 class="titulo-secao" id="rochativa-titulo">Em parceria com a Rochativa</h2>
+          <p class="lead">Musicalização, capoeira, jiu-jitsu e ballet chegam às crianças da ACRIC em parceria com a Rochativa.</p>
+        </header>
+        <ul class="rochativa__grade" role="list" data-marca="volei">
+          <li class="oficina oficina--grande">
+            <div class="quadro"><img src="assets/oficinas/musicalizacao.webp" width="1200" height="1206" loading="lazy" decoding="async" data-paralaxe
+                 alt="Crianças sentadas em roda tocam violão com o professor."></div>
+            <div class="placa">
+              <h3 class="placa__nome">Musicalização</h3>
+              <p class="placa__quem"><span class="placa__cor" aria-hidden="true"></span>Rochativa</p>
+              <p class="placa__linha">Violões em roda.</p>
+            </div>
+          </li>
+          <li class="oficina oficina--grande">
+            <div class="quadro"><img src="assets/oficinas/capoeira.webp" width="1071" height="1082" loading="lazy" decoding="async" data-paralaxe
+                 alt="Crianças de abadá branco treinam capoeira no pátio, diante do prédio de janelas azuis."></div>
+            <div class="placa">
+              <h3 class="placa__nome">Capoeira</h3>
+              <p class="placa__quem"><span class="placa__cor" aria-hidden="true"></span>Rochativa</p>
+              <p class="placa__linha">De abadá branco, no pátio.</p>
+            </div>
+          </li>
+          <li class="oficina oficina--grande">
+            <div class="quadro"><img src="assets/oficinas/jiu-jitsu.webp" width="904" height="900" loading="lazy" decoding="async" data-paralaxe
+                 alt="Meninos de kimono azul treinam jiu-jitsu no tatame."></div>
+            <div class="placa">
+              <h3 class="placa__nome">Jiu-jitsu</h3>
+              <p class="placa__quem"><span class="placa__cor" aria-hidden="true"></span>Rochativa</p>
+              <p class="placa__linha">De kimono azul, no tatame.</p>
+            </div>
+          </li>
+          <li class="oficina oficina--grande">
+            <div class="quadro"><img src="assets/oficinas/ballet.webp" width="1071" height="1068" loading="lazy" decoding="async" data-paralaxe
+                 alt="Meninas de collant preto e saia de tule fazem uma pose de ballet na barra."></div>
+            <div class="placa">
+              <h3 class="placa__nome">Ballet</h3>
+              <p class="placa__quem"><span class="placa__cor" aria-hidden="true"></span>Rochativa</p>
+              <p class="placa__linha">Na barra, de collant e saia de tule.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Faixa das famílias: foto aberta, sem véu -->
+    <section class="familias" aria-labelledby="familias-titulo">
+      <div class="familias__foto">
+        <img src="assets/fotos/passeio-teatro.webp" width="1600" height="1200" loading="lazy" decoding="async"
+             alt="Crianças da ACRIC acenam e sorriem sentadas nas cadeiras vermelhas de um auditório.">
+      </div>
+      <div class="envelope familias__envelope">
+        <div class="familias__placa">
+          <h2 class="familias__titulo" id="familias-titulo">Enquanto as famílias trabalham, as crianças estão num lugar seguro, aprendendo.</h2>
+        </div>
+      </div>
+    </section>
+
+    <!-- Como doar: o garrafão -->
+    <section class="doar quadra" id="doar" aria-labelledby="doar-titulo">
+      <div class="envelope doar__grade">
+        <header class="doar__cabeca">
+          <h2 class="titulo-secao" id="doar-titulo">Como doar</h2>
+          <p class="doar__frase">“A solidariedade é o amor em movimento.”</p>
+          <p class="lead">Sua contribuição ajuda a manter o almoço, o lanche e as oficinas de mais de 100 crianças e adolescentes de Castelo. Escolha o jeito mais fácil para você.</p>
+        </header>
+
+        <div class="pix" data-marca="garrafao">
+          <h3 class="pix__titulo">PIX</h3>
+          <p class="pix__rotulo">Chave CNPJ</p>
+          <p class="pix__chave">31.726.755/0001-00</p>
+          <button class="botao botao--doar pix__botao" type="button" data-copiar="31726755000100" data-rotulo-ok="Chave copiada">
+            <svg class="icone icone--copiar" aria-hidden="true"><use href="#i-copiar"/></svg>
+            <svg class="icone icone--ok" aria-hidden="true"><use href="#i-ok"/></svg>
+            <span class="botao__texto">Copiar chave</span>
+          </button>
+          <p class="pix__nota">Na hora de pagar, confira se o recebedor é a Associação das Crianças de Castelo.</p>
+        </div>
+
+        <div class="debito">
+          <h3 class="subtitulo">Débito automático mensal</h3>
+          <p>Faça um débito automático mensal em uma das nossas contas:</p>
+          <table class="contas">
+            <caption class="visualmente-oculto">Contas da ACRIC para débito automático mensal</caption>
+            <thead>
+              <tr><th scope="col">Banco</th><th scope="col">Agência</th><th scope="col">Conta</th></tr>
+            </thead>
+            <tbody>
+              <tr><th scope="row">Caixa</th><td>0591</td><td>Op. 003 · C/C 423-4</td></tr>
+              <tr><th scope="row">Bradesco</th><td>1710</td><td>C/C 4084-3</td></tr>
+              <tr><th scope="row">Sicoob</th><td>3003</td><td>C/C 88043-4</td></tr>
+              <tr><th scope="row">Banestes</th><td>0116</td><td>C/C 2.324.416</td></tr>
+              <tr><th scope="row">Sicredi</th><td>0307</td><td>C/C 78110-3</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="nota-premiada">
+          <h3 class="subtitulo">Nota Premiada Capixaba</h3>
+          <p>Quer concorrer a prêmios de até R$ 100.000,00 e ainda ajudar a ACRIC? Cadastre-se no Nota Premiada Capixaba e indique a <strong>Associação das Crianças de Castelo – ACRIC</strong> como entidade beneficiada.</p>
+          <a class="botao botao--linha" href="https://notapremiadacapixaba.es.gov.br/" target="_blank" rel="noopener">
+            Cadastrar no Nota Premiada <svg class="icone" aria-hidden="true"><use href="#i-externo"/></svg>
+            <span class="visualmente-oculto">(abre em nova aba)</span>
+          </a>
+        </div>
+
+        <p class="doar__agradece">Nossas crianças agradecem.</p>
+      </div>
+    </section>
+
+    <!-- Diretoria: a súmula -->
+    <section class="diretoria cimento" id="diretoria" aria-labelledby="diretoria-titulo">
+      <div class="envelope diretoria__grade">
+        <header class="diretoria__cabeca">
+          <h2 class="titulo-secao" id="diretoria-titulo">Diretoria 2025–2028</h2>
+          <p>Quem responde pela ACRIC neste mandato, com o acompanhamento do Conselho Fiscal.</p>
+          <p class="diretoria__cnpj">CNPJ 31.726.755/0001-00</p>
+        </header>
+        <div class="sumula">
+          <h3 class="subtitulo">Diretoria</h3>
+          <ul class="sumula__lista" role="list">
+            <li><span class="sumula__cargo">Presidente</span> <span class="sumula__nome">Inês Vettorazzi Nemer</span></li>
+            <li><span class="sumula__cargo">Vice-Presidente</span> <span class="sumula__nome">Silvana Paganini Passaman</span></li>
+            <li><span class="sumula__cargo">Primeira Secretária</span> <span class="sumula__nome">Maria José Scabello da Silva</span></li>
+            <li><span class="sumula__cargo">Segunda Secretária</span> <span class="sumula__nome">Eliane Maria Pizol Colodete</span></li>
+            <li><span class="sumula__cargo">Primeiro Tesoureiro</span> <span class="sumula__nome">Giovanni Riccio</span></li>
+            <li><span class="sumula__cargo">Segundo Tesoureiro</span> <span class="sumula__nome">Celso Marcolan Casagrande</span></li>
+          </ul>
+        </div>
+        <div class="sumula">
+          <h3 class="subtitulo">Conselho Fiscal</h3>
+          <ul class="sumula__lista sumula__lista--nomes" role="list">
+            <li><span class="sumula__nome">I-Juca Pirama Rosa</span></li>
+            <li><span class="sumula__nome">Mauro Colodete</span></li>
+            <li><span class="sumula__nome">Cilene Fuzer Payer</span></li>
+            <li><span class="sumula__nome">Elenir Travalia Gomes</span></li>
+            <li><span class="sumula__nome">Maristela F. Ribeiro Soares</span></li>
+            <li><span class="sumula__nome">José Marcos Zogato</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contato: a linha de fundo -->
+    <section class="contato quadra" id="contato" aria-labelledby="contato-titulo">
+      <div class="envelope contato__grade">
+        <div class="contato__texto" data-marca="area">
+          <h2 class="titulo-secao" id="contato-titulo">Venha conhecer a ACRIC</h2>
+          <ul class="contato__lista" role="list">
+            <li>
+              <svg class="icone" aria-hidden="true"><use href="#i-pino"/></svg>
+              <div>
+                <p><strong>Av. João Venturim Filho, 2165</strong><br>Bairro Cava Roxa, Castelo-ES · CEP 29360-000</p>
+                <p class="contato__ref">Em frente ao asilo ILPI Vila Feliz.</p>
+                <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=Av.%20Jo%C3%A3o%20Venturim%20Filho%2C%202165%2C%20Cava%20Roxa%2C%20Castelo%20-%20ES%2C%2029360-000" target="_blank" rel="noopener">Abrir no mapa<span class="visualmente-oculto"> (abre em nova aba)</span></a>
+              </div>
+            </li>
+            <li>
+              <svg class="icone" aria-hidden="true"><use href="#i-telefone"/></svg>
+              <p><a class="link" href="tel:+552835422409">(28) 3542-2409</a><br><a class="link" href="tel:+5528999176952">(28) 99917-6952</a></p>
+            </li>
+            <li>
+              <svg class="icone" aria-hidden="true"><use href="#i-email"/></svg>
+              <p><a class="link" href="mailto:acriccastelo@gmail.com">acriccastelo@gmail.com</a></p>
+            </li>
+            <li>
+              <svg class="icone" aria-hidden="true"><use href="#i-instagram"/></svg>
+              <p><a class="link" href="https://www.instagram.com/acriccastelo/" target="_blank" rel="noopener">@acriccastelo<span class="visualmente-oculto"> no Instagram (abre em nova aba)</span></a></p>
+            </li>
+            <li>
+              <svg class="icone" aria-hidden="true"><use href="#i-relogio"/></svg>
+              <p>Horário de funcionamento:<br><strong>segunda a sexta, das 12h às 17h</strong></p>
+            </li>
+          </ul>
+        </div>
+        <figure class="contato__foto">
+          <div class="quadro quadro--paisagem">
+            <img src="assets/fotos/grupo-patio.webp" width="1041" height="802" loading="lazy" decoding="async" data-paralaxe
+                 alt="Crianças da ACRIC, de uniforme, reunidas no gramado do pátio entre as árvores e o prédio da sede.">
+          </div>
+          <div class="quadro quadro--paisagem contato__aerea">
+            <img src="assets/fotos/sede-aerea-2.webp" width="664" height="400" loading="lazy" decoding="async" data-paralaxe
+                 alt="Vista aérea dos pavilhões da ACRIC e da estrada que passa em frente.">
+          </div>
+        </figure>
+      </div>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <div class="envelope rodape__grade">
+      <div class="rodape__marca">
+        <img src="assets/logo-acric-branco.webp" alt="" width="600" height="600" loading="lazy">
+        <p><strong>ACRIC · Associação das Crianças de Castelo</strong><br>Organização da Sociedade Civil sem fins lucrativos<br>CNPJ 31.726.755/0001-00</p>
+      </div>
+      <nav class="rodape__nav" aria-label="Rodapé">
+        <ul>
+          <li><a href="#quem-somos">Quem somos</a></li>
+          <li><a href="#oficinas">Oficinas</a></li>
+          <li><a href="#doar">Como doar</a></li>
+          <li><a href="#diretoria">Diretoria</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+      <p class="rodape__endereco">Av. João Venturim Filho, 2165 · Cava Roxa<br>Castelo-ES · 29360-000<br><a href="https://www.instagram.com/acriccastelo/" target="_blank" rel="noopener">Instagram @acriccastelo</a></p>
+      <p class="rodape__direitos">© 2026 ACRIC. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <button class="bola" type="button" aria-label="Voltar ao topo" hidden>
+    <svg viewBox="0 0 32 32" aria-hidden="true" focusable="false">
+      <circle cx="16" cy="16" r="14.5" fill="#F6F5F0" stroke="#1D1C45" stroke-width="1.6"/>
+      <path d="M16 10.4l5.3 3.9-2 6.2h-6.6l-2-6.2z" fill="#1D1C45"/>
+      <path d="M16 10.4V4.2M21.3 14.3l5.8-1.9M19.3 20.5l3.6 4.9M12.7 20.5l-3.6 4.9M10.7 14.3l-5.8-1.9" stroke="#1D1C45" stroke-width="1.5" fill="none"/>
+      <path d="M12.6 2.2l3.4-.7 3.4.7-.9 2.3h-5z M27.9 10.6l1.3 3.2-.3 3.5-2.2-1.2 1-4.5z M23.9 27.6l-3 1.8-3.4.6.4-2.4 4.3-1.5z M8.1 27.6l3 1.8 3.4.6-.4-2.4-4.3-1.5z M4.1 10.6L2.8 13.8l.3 3.5 2.2-1.2-1-4.5z" fill="#1D1C45"/>
+    </svg>
+  </button>
+
+  <p class="aviso visualmente-oculto" role="status" aria-live="polite"></p>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.15.0/gsap.min.js" integrity="sha384-XmJ9SoHtVOHoQUcKvFAzVXwdkKo1Ie3bhmSoIAkcdsHGaIrVJIkmozyq0FJeb/Ly" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.15.0/ScrollTrigger.min.js" integrity="sha384-wl5TeDVvOWt30Pbf8aSo2ZrzsOjddu3avOBvHe+p+OhJt9gP6w9YXmDkN5DK2/dF" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.15.0/SplitText.min.js" integrity="sha384-SWJ0lLVRoipvHh59xj0pL7uC7Ih51F+5smaFtrG+2nr+TlDZU5SYJHmxfolbeNTr" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
+  <script src="js/main.js" defer></script>
+</body>
+</html>

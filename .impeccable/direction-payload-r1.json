@@ -1,0 +1,157 @@
+{
+  "title": "Escolha o mundo visual do site da ACRIC",
+  "question": "Novo sorteio: saiu a Quadra Poliesportiva. Fique com ela, escolha uma alternativa ou sorteie de novo.",
+  "options": [
+    {
+      "id": "assigned",
+      "label": "Quadra Poliesportiva",
+      "kicker": "THE ROLL",
+      "lineage": "a quadra pintada da escola pública, onde as linhas de todos os esportes se cruzam",
+      "thesis": "Quinze oficinas, um chão só: a página é a quadra onde as linhas de cada atividade se cruzam, com o logo redondo da ACRIC pintado no círculo central.",
+      "palette": ["#2D5DA8", "#3D3C77", "#F7F6F2", "#F4C23A", "#E4432F", "#1E8A5A"],
+      "materials": ["tinta de piso sobre cimento, com grão e desgaste", "linhas de vários esportes cruzadas", "números em estêncil", "placar de dígitos"],
+      "viewport": "A quadra vista de cima ocupa a tela: o logo no círculo central, a foto das crianças na área com as linhas pintadas por cima, o título do outro lado e o botão Doar na linha lateral. As linhas se pintam sozinhas ao rolar, em parallax sobre as fotos.",
+      "risk": "A quadra é gramática visual, não promessa de que a ACRIC tem uma; e se o texto abusar de 'entre no time', vira clichê esportivo.",
+      "raised": [
+        {"from": "challenger-fluid", "raise": "Todo movimento obedece a uma física real: a linha é pintada no ritmo do carrinho de pintura e a bola quica com gravidade."},
+        {"from": "challenger-splitflap", "raise": "O placar tem células fixas e só os dígitos viram: 11h30, 16h00, 6 a 15 anos."},
+        {"from": "challenger-quarry", "raise": "Uma só linha ativa por vez: a seção em foco recebe a tinta viva e as demais ficam gastas."},
+        {"from": "challenger-kiln", "raise": "Cada seção carrega uma só cor de linha; todas se cruzam apenas no círculo central."},
+        {"from": "challenger-mascots", "raise": "Cada oficina tem mobília fixa: plaqueta com o nome, quem conduz (ACRIC ou Rochativa) e uma linha sobre o que as crianças fazem."}
+      ],
+      "wireframe": {"cols": 12, "rows": 10, "regions": [
+        {"label": "logo · menu · Doar", "x": 0, "y": 0, "w": 12, "h": 1},
+        {"label": "título", "x": 0, "y": 1, "w": 5, "h": 6},
+        {"label": "círculo central com o logo", "x": 4, "y": 3, "w": 3, "h": 4, "accent": true},
+        {"label": "foto do grupo sob as linhas", "x": 7, "y": 1, "w": 5, "h": 7},
+        {"label": "placar 11h30–16h00 · 6–15 anos", "x": 0, "y": 8, "w": 5, "h": 2},
+        {"label": "Doar na linha lateral", "x": 7, "y": 8, "w": 5, "h": 2, "accent": true}
+      ]}
+    },
+    {
+      "id": "model-pick",
+      "label": "Caderno Escolar",
+      "kicker": "IMPECCABLE’S PICK",
+      "lineage": "o caderno brochura da escola pública: pauta azul, margem vermelha, etiqueta com o nome",
+      "thesis": "O contraturno é a outra metade do dia escolar: a página é o caderno das crianças, com pauta, margem e o visto da professora.",
+      "palette": ["#FBFBF9", "#7FA7D9", "#E0443A", "#3D3C77", "#F2C230"],
+      "materials": ["papel pautado", "margem vermelha", "etiqueta de nome", "carimbo de visto e estrelinha"],
+      "viewport": "Uma página de caderno aberta ocupa a tela: o título escrito na pauta, a foto das crianças colada com fita e o botão Doar como etiqueta na margem.",
+      "risk": "É a metáfora mais esperada para criança e escola, e o papel pautado pode puxar para o infantil.",
+      "wireframe": {"cols": 12, "rows": 10, "regions": [
+        {"label": "menu", "x": 0, "y": 0, "w": 12, "h": 1},
+        {"label": "margem", "x": 0, "y": 1, "w": 1, "h": 9},
+        {"label": "título na pauta", "x": 1, "y": 1, "w": 6, "h": 5},
+        {"label": "foto colada com fita", "x": 7, "y": 1, "w": 5, "h": 6},
+        {"label": "etiqueta Doar", "x": 1, "y": 7, "w": 4, "h": 2, "accent": true}
+      ]}
+    },
+    {
+      "id": "challenger-monochrome",
+      "label": "Afirmação e prova",
+      "verdict": "competitive",
+      "lineage": "sites de produto quase monocromáticos",
+      "thesis": "Quase sem cor: cada frase sobre a ACRIC vem colada a uma foto real que a prova (almoço, oficinas, sede).",
+      "palette": ["#FAFAF9", "#111114", "#6B6B73", "#3D3C77"],
+      "materials": ["escala neutra fina", "fotos em moldura suave", "um único acento índigo"],
+      "viewport": "Título curto em sans geométrica, botão Doar sólido em índigo e, logo abaixo, a primeira prova: a foto do refeitório com 'almoço e lanche todo dia'.",
+      "case": "Funde bem na clareza, porque toda afirmação tem prova. Perde em identificação: é o frio/corporativo que você vetou.",
+      "risk": "Cara de empresa de software.",
+      "hero": "https://impeccable.style/worlds/cards/digital-design-canon-monochrome-product-marketing-hero.webp",
+      "board": "https://impeccable.style/worlds/cards/digital-design-canon-monochrome-product-marketing.webp",
+      "wireframe": {"cols": 12, "rows": 10, "regions": [
+        {"label": "menu", "x": 0, "y": 0, "w": 12, "h": 1},
+        {"label": "título + Doar", "x": 0, "y": 1, "w": 6, "h": 5, "accent": true},
+        {"label": "foto de prova", "x": 6, "y": 1, "w": 6, "h": 5},
+        {"label": "afirmação + prova seguinte", "x": 0, "y": 6, "w": 12, "h": 4}
+      ]}
+    },
+    {
+      "id": "challenger-fluid",
+      "label": "Bacia de tinta",
+      "verdict": "declined",
+      "lineage": "marmorização suminagashi em WebGL",
+      "thesis": "Uma gota de índigo cai e a superfície desenha correntes.",
+      "palette": ["#F4F4F2", "#2B2F6B", "#3A3A3A", "#9A9AA0"],
+      "materials": ["tinta sumi sobre água", "simulação de fluido"],
+      "viewport": "A tela inteira é uma bacia que o dedo mexe.",
+      "case": "Funde mal: é um ofício japonês abstrato, longe de Castelo e das crianças.",
+      "kept": "Todo movimento obedece a uma física real.",
+      "risk": "Bonito e mudo sobre o que a ACRIC faz.",
+      "hero": "https://impeccable.style/worlds/cards/medium-native-fluid-ink-basin-hero.webp"
+    },
+    {
+      "id": "challenger-splitflap",
+      "label": "Painel de embarque",
+      "verdict": "declined",
+      "lineage": "painéis de plaquetas de estação",
+      "thesis": "As oficinas como partidas num painel que vira letra por letra.",
+      "palette": ["#111111", "#F2F2F2", "#F2A93B", "#8E2B2B"],
+      "materials": ["plaquetas pretas", "moldura de aço"],
+      "viewport": "Linhas de oficinas num painel preto de estação.",
+      "case": "Funde mal: frio, preto e sem vínculo com Castelo.",
+      "kept": "Células fixas; só os dígitos viram.",
+      "risk": "Frieza de terminal de transporte.",
+      "hero": "https://impeccable.style/worlds/cards/signals-instruments-split-flap-concourse-hero.webp"
+    },
+    {
+      "id": "challenger-quarry",
+      "label": "Pedreira de nuvens",
+      "verdict": "declined",
+      "lineage": "mundos surreais",
+      "thesis": "Blocos de nuvem cortados e montados.",
+      "palette": ["#F5F7FA", "#7FB2E5", "#6B7280", "#C0C4CC"],
+      "materials": ["blocos de nuvem", "linha de serra prateada"],
+      "viewport": "Seções empilhadas como blocos cortados.",
+      "case": "Funde mal: surreal e sem relação com a ACRIC.",
+      "kept": "Uma só linha ativa por vez.",
+      "risk": "Nada a ver com o público.",
+      "hero": "https://impeccable.style/worlds/cards/dream-surreal-impossible-worlds-cloud-quarry-hero.webp"
+    },
+    {
+      "id": "challenger-kiln",
+      "label": "Prateleira do forno",
+      "verdict": "declined",
+      "lineage": "cerâmica com esmalte escorrido",
+      "thesis": "As oficinas como xícaras com esmalte cobalto escorrendo.",
+      "palette": ["#F3F2EE", "#1F4FA0", "#0E2F6B", "#BFBAB0"],
+      "materials": ["esmalte cobalto", "prateleira de forno"],
+      "viewport": "Uma fileira de xícaras com escorridos azuis.",
+      "case": "Funde mal: ofício de ceramista, distante do doador e das crianças.",
+      "kept": "Contenção: uma só cor corre por seção.",
+      "risk": "Poético demais para o recado.",
+      "hero": "https://impeccable.style/worlds/cards/clay-ceramics-fracture-glaze-river-shelf-hero.webp"
+    },
+    {
+      "id": "challenger-mascots",
+      "label": "Catálogo de personagens",
+      "verdict": "declined",
+      "lineage": "catálogos de mascotes fofos",
+      "thesis": "Cada oficina vira um mascote com plaquinha e frase.",
+      "palette": ["#FBEFF4", "#E8F2FB", "#FFFFFF", "#F06292"],
+      "materials": ["mascotes arredondados", "grade pastel"],
+      "viewport": "Grade de mascotes ranqueados em tons pastel.",
+      "case": "Funde mal: fala com as crianças, não com o doador adulto, e é o pastel que você vetou.",
+      "kept": "Mobília fixa por item: plaqueta, responsável e uma linha.",
+      "risk": "Infantiliza a ACRIC.",
+      "hero": "https://impeccable.style/worlds/cards/pop-culture-shelf-character-goods-catalog-hero.webp"
+    }
+  ],
+  "reroll": {"registers": ["safer", "bolder"]},
+  "buildPath": {"value": "code", "toggle": false},
+  "canon": true,
+  "canonCard": {
+    "label": "O padrão da categoria",
+    "thesis": "A landing de ONG bem-feita: foto grande, números, cartões das oficinas e bloco de doação.",
+    "palette": ["#FFFFFF", "#1D1B3A", "#3D3C77", "#F2B705"],
+    "materials": ["grade limpa", "fotografia com véu escuro"],
+    "viewport": "Foto de grupo em tela cheia com véu escuro, título e botão Doe agora, e uma faixa de números logo abaixo.",
+    "risk": "Indistinguível de qualquer ONG, que é justamente a 'ONG genérica' vetada.",
+    "wireframe": {"cols": 12, "rows": 10, "regions": [
+      {"label": "foto em tela cheia + véu", "x": 0, "y": 0, "w": 12, "h": 7},
+      {"label": "título + Doe agora", "x": 1, "y": 3, "w": 6, "h": 3, "accent": true},
+      {"label": "faixa de números", "x": 0, "y": 7, "w": 12, "h": 3}
+    ]}
+  },
+  "steer": true
+}

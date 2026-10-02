@@ -1,0 +1,44 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-09-30T18:23:19.000Z",
+        "reason": "Agent: sections inset content through .envelope (width: min(100% - gutter, 77.5rem)); file-mode reads the section as flush, browser scans at 1280x800, 1440x900 and 390x844 report no cramped padding"
+      },
+      {
+        "rule": "flat-type-hierarchy",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-09-30T18:23:19.010Z",
+        "reason": "Agent: file-mode cannot evaluate clamp()/vw font sizes and reads every role as 17px; browser scans at 1280x800, 1440x900 and 390x844 report no flat hierarchy (ramp 6 / 4.5 / 2.125 / 1.75 / 1.375 / 1.125rem)"
+      },
+      {
+        "rule": "low-contrast",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-09-30T18:37:05.962Z",
+        "reason": "Agent: file-mode does not walk ancestors and reads text on the blue/indigo/concrete sections as on #ffffff (e.g. #d9e1f5 on #ffffff); computed pairs are 5.1-11.3:1 for body text (yellow 4.0:1 only on large text) and browser scans at 1280x800, 1440x900 and 390x844 report 0 findings. Re-check contrast after edits with a browser-mode scan using --no-config"
+      },
+      {
+        "rule": "tight-leading",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-09-30T18:37:05.972Z",
+        "reason": "Agent: file-mode reports 1.24x on no identifiable element; every multi-line text block computes >= 1.32 and browser scans at 1280x800, 1440x900 and 390x844 report 0 findings. Re-check with a browser-mode scan using --no-config"
+      }
+    ]
+  }
+}

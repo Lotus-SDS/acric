@@ -1,0 +1,4 @@
+{
+  "prompt": "Gerado proceduralmente (sem IA): grão de cimento de 384px = ruído uniforme (ffmpeg noise alls=55) somado a manchas de ruído 96px em mosaico 3x3 ampliadas para 1152px com desfoque gaussiano sigma 10 e recortadas no centro (sem emendas); cinza combinado como 128+(fino-128)*1.1+(manchas-128)*2.4; tingido com a fórmula soft-light da W3C sobre #D5D7D7; WebP qualidade 88.",
+  "createdAt": "2026-09-30T18:35:00.055Z"
+}

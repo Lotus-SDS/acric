@@ -1,0 +1,605 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-30T18:33:04+00:00",
+  "title": "Design System: ACRIC · Quadra Poliesportiva",
+  "extensions": {
+    "colorMeta": {
+      "azul-quadra": {
+        "role": "primary",
+        "displayName": "Azul-quadra",
+        "canonical": "#2F58B0",
+        "oklch": "oklch(48.1% 0.148 263.2)",
+        "tonalRamp": [
+          "#000038",
+          "#001765",
+          "#12378C",
+          "#2F58B0",
+          "#507CD8",
+          "#77A3FB",
+          "#B0CBFE",
+          "#E7EFFE"
+        ]
+      },
+      "azul-quadra-claro": {
+        "role": "primary",
+        "displayName": "Azul-quadra claro",
+        "canonical": "#3A64BE",
+        "oklch": "oklch(52.1% 0.149 263.3)",
+        "tonalRamp": [
+          "#000036",
+          "#00136A",
+          "#12378D",
+          "#2F58B0",
+          "#507CD8",
+          "#76A2FB",
+          "#B0CBFE",
+          "#E7EFFE"
+        ]
+      },
+      "azul-fio": {
+        "role": "neutral",
+        "displayName": "Fio azul",
+        "canonical": "#6F8CCB",
+        "oklch": "oklch(64.4% 0.101 264.8)",
+        "tonalRamp": [
+          "#000134",
+          "#0B1E54",
+          "#253C74",
+          "#415B96",
+          "#627FBD",
+          "#85A4E4",
+          "#B3CBFD",
+          "#E7EFFF"
+        ]
+      },
+      "azul-nevoa": {
+        "role": "neutral",
+        "displayName": "Névoa",
+        "canonical": "#D9E1F5",
+        "oklch": "oklch(91.0% 0.029 268.4)",
+        "tonalRamp": [
+          "#060A17",
+          "#1E2432",
+          "#393F4F",
+          "#575D6E",
+          "#798092",
+          "#9DA4B7",
+          "#C2CADE",
+          "#E8EEFF"
+        ]
+      },
+      "indigo-acric": {
+        "role": "secondary",
+        "displayName": "Índigo ACRIC",
+        "canonical": "#3D3C77",
+        "oklch": "oklch(38.8% 0.098 281.6)",
+        "tonalRamp": [
+          "#0A002F",
+          "#1F1951",
+          "#383771",
+          "#555693",
+          "#7779B9",
+          "#9A9DE1",
+          "#C1C5FD",
+          "#EBEDFE"
+        ]
+      },
+      "noite": {
+        "role": "secondary",
+        "displayName": "Noite",
+        "canonical": "#23224A",
+        "oklch": "oklch(27.6% 0.072 281.7)",
+        "tonalRamp": [
+          "#090428",
+          "#1F1E45",
+          "#3A3A65",
+          "#575885",
+          "#797BAB",
+          "#9DA0D1",
+          "#C2C6F9",
+          "#EBEDFF"
+        ]
+      },
+      "fio-noite": {
+        "role": "neutral",
+        "displayName": "Fio noite",
+        "canonical": "#5A5990",
+        "oklch": "oklch(48.9% 0.087 283.5)",
+        "tonalRamp": [
+          "#0A002D",
+          "#201B4C",
+          "#3B386C",
+          "#57568D",
+          "#7979B3",
+          "#9D9EDA",
+          "#C3C4FE",
+          "#ECEDFE"
+        ]
+      },
+      "lavanda": {
+        "role": "neutral",
+        "displayName": "Lavanda",
+        "canonical": "#C9CAEB",
+        "oklch": "oklch(84.9% 0.046 284.0)",
+        "tonalRamp": [
+          "#09071D",
+          "#212139",
+          "#3D3D57",
+          "#5A5A77",
+          "#7C7D9B",
+          "#A0A1C1",
+          "#C6C7E8",
+          "#ECEDFE"
+        ]
+      },
+      "tinta": {
+        "role": "neutral",
+        "displayName": "Tinta",
+        "canonical": "#1D1C45",
+        "oklch": "oklch(25.3% 0.075 280.7)",
+        "tonalRamp": [
+          "#080329",
+          "#1E1E47",
+          "#393A66",
+          "#565887",
+          "#787BAC",
+          "#9BA0D3",
+          "#C1C6FB",
+          "#EBEDFE"
+        ]
+      },
+      "tinta-suave": {
+        "role": "neutral",
+        "displayName": "Tinta suave",
+        "canonical": "#474670",
+        "oklch": "oklch(41.4% 0.069 284.0)",
+        "tonalRamp": [
+          "#0A0426",
+          "#211E44",
+          "#3B3A63",
+          "#595884",
+          "#7B7BA9",
+          "#9F9FCF",
+          "#C4C5F7",
+          "#ECEDFE"
+        ]
+      },
+      "cimento": {
+        "role": "neutral",
+        "displayName": "Cimento",
+        "canonical": "#D5D7D7",
+        "oklch": "oklch(87.8% 0.002 197.1)",
+        "tonalRamp": [
+          "#0A0B0B",
+          "#232424",
+          "#3E4040",
+          "#5C5E5E",
+          "#7F8080",
+          "#A3A5A5",
+          "#C9CBCB",
+          "#EDEFEF"
+        ]
+      },
+      "branco": {
+        "role": "neutral",
+        "displayName": "Branco",
+        "canonical": "#FFFFFF",
+        "oklch": "oklch(100.0% 0.000 89.9)",
+        "tonalRamp": [
+          "#0B0B0B",
+          "#242424",
+          "#404040",
+          "#5D5D5D",
+          "#808080",
+          "#A4A4A4",
+          "#CACACA",
+          "#EEEEEE"
+        ]
+      },
+      "linha-branca": {
+        "role": "neutral",
+        "displayName": "Linha branca",
+        "canonical": "#F6F5F0",
+        "oklch": "oklch(97.0% 0.007 97.4)",
+        "tonalRamp": [
+          "#0C0B08",
+          "#252420",
+          "#41403C",
+          "#5E5E59",
+          "#81807C",
+          "#A6A5A0",
+          "#CBCBC6",
+          "#EFEEEA"
+        ]
+      },
+      "linha-amarela": {
+        "role": "tertiary",
+        "displayName": "Linha amarela",
+        "canonical": "#F4C23A",
+        "oklch": "oklch(83.7% 0.154 87.3)",
+        "tonalRamp": [
+          "#120A00",
+          "#2F2201",
+          "#503D02",
+          "#745A0E",
+          "#9D7B18",
+          "#CB9E14",
+          "#F5C33C",
+          "#FFEDC5"
+        ]
+      },
+      "amarelo-vivo": {
+        "role": "tertiary",
+        "displayName": "Amarelo vivo",
+        "canonical": "#FFD45C",
+        "oklch": "oklch(88.5% 0.144 89.3)",
+        "tonalRamp": [
+          "#110A00",
+          "#2E2201",
+          "#4F3D01",
+          "#735A0D",
+          "#9C7C17",
+          "#C89F10",
+          "#F0C54B",
+          "#FFEDC1"
+        ]
+      },
+      "linha-vermelha": {
+        "role": "tertiary",
+        "displayName": "Linha vermelha",
+        "canonical": "#E2432E",
+        "oklch": "oklch(61.2% 0.199 30.9)",
+        "tonalRamp": [
+          "#200000",
+          "#4A0200",
+          "#781105",
+          "#AE1703",
+          "#DE3F2A",
+          "#FE745F",
+          "#FCB7AA",
+          "#FEE9E5"
+        ]
+      },
+      "vermelho-cimento": {
+        "role": "tertiary",
+        "displayName": "Vermelho-cimento",
+        "canonical": "#C2361F",
+        "oklch": "oklch(54.3% 0.180 32.0)",
+        "tonalRamp": [
+          "#200000",
+          "#490400",
+          "#771404",
+          "#AC1D02",
+          "#D64A32",
+          "#FC765E",
+          "#FEB6A7",
+          "#FEE9E5"
+        ]
+      },
+      "linha-verde": {
+        "role": "tertiary",
+        "displayName": "Linha verde",
+        "canonical": "#3DBE6E",
+        "oklch": "oklch(71.2% 0.161 152.2)",
+        "tonalRamp": [
+          "#001003",
+          "#012D13",
+          "#004E24",
+          "#0E703A",
+          "#199951",
+          "#40C170",
+          "#6DE895",
+          "#C8FED5"
+        ]
+      },
+      "verde-cimento": {
+        "role": "tertiary",
+        "displayName": "Verde-cimento",
+        "canonical": "#1F8448",
+        "oklch": "oklch(54.2% 0.129 152.2)",
+        "tonalRamp": [
+          "#001003",
+          "#012D13",
+          "#004E24",
+          "#0F703A",
+          "#369658",
+          "#5EBC7C",
+          "#85E3A1",
+          "#C8FED5"
+        ]
+      },
+      "placar": {
+        "role": "neutral",
+        "displayName": "Placar",
+        "canonical": "#141330",
+        "oklch": "oklch(20.6% 0.056 281.9)",
+        "tonalRamp": [
+          "#090622",
+          "#20203E",
+          "#3B3C5D",
+          "#585A7D",
+          "#7A7DA1",
+          "#9EA1C8",
+          "#C4C7EF",
+          "#EBEDFE"
+        ]
+      },
+      "led": {
+        "role": "tertiary",
+        "displayName": "LED",
+        "canonical": "#FFB23F",
+        "oklch": "oklch(81.8% 0.153 72.8)",
+        "tonalRamp": [
+          "#150800",
+          "#341F00",
+          "#593800",
+          "#7F5309",
+          "#AC7312",
+          "#DE9304",
+          "#FFBC61",
+          "#FFEBD3"
+        ]
+      },
+      "led-apagado": {
+        "role": "neutral",
+        "displayName": "LED apagado",
+        "canonical": "#2B2950",
+        "oklch": "oklch(30.4% 0.069 283.8)",
+        "tonalRamp": [
+          "#0A0426",
+          "#211E44",
+          "#3B3A63",
+          "#595883",
+          "#7B7BA9",
+          "#9F9FCF",
+          "#C4C5F7",
+          "#ECEDFE"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Só o título da abertura, em caixa-alta; limitado pela altura da tela."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Títulos de seção, o PIX e o fechamento da doação."
+      },
+      "headline-sm": {
+        "displayName": "Headline pequeno",
+        "purpose": "Frase sobre a foto das famílias e links do menu no celular."
+      },
+      "quote": {
+        "displayName": "Citação",
+        "purpose": "A missão e a frase da doação, em caixa normal."
+      },
+      "title": {
+        "displayName": "Título",
+        "purpose": "Subtítulos em caixa-alta e nomes das oficinas maiores."
+      },
+      "plate": {
+        "displayName": "Plaqueta",
+        "purpose": "Stencil pintado no chão: nomes das oficinas, fatos e sigla."
+      },
+      "lead": {
+        "displayName": "Abertura de seção",
+        "purpose": "Primeiro parágrafo de cada seção."
+      },
+      "body": {
+        "displayName": "Texto",
+        "purpose": "Texto corrido, medida até 38rem."
+      },
+      "button": {
+        "displayName": "Botão",
+        "purpose": "Rótulo de ação."
+      },
+      "body-sm": {
+        "displayName": "Texto pequeno",
+        "purpose": "Linha da plaqueta e células de tabela."
+      },
+      "small": {
+        "displayName": "Miúdo",
+        "purpose": "Âncoras de navegação, legendas e notas."
+      },
+      "label": {
+        "displayName": "Rótulo",
+        "purpose": "Legenda de dado em caixa-alta espaçada; nunca acima de título."
+      },
+      "data": {
+        "displayName": "Dado",
+        "purpose": "Agência, conta e CNPJ em algarismos tabulares."
+      },
+      "data-lg": {
+        "displayName": "Dado grande",
+        "purpose": "Só a chave PIX."
+      }
+    },
+    "shadows": [
+      {
+        "name": "objeto-sobre-o-piso",
+        "value": "0 18px 36px -18px rgba(12, 11, 36, 0.62)",
+        "purpose": "Fotos, placar e quadros: objetos físicos sobre a quadra."
+      },
+      {
+        "name": "botao-acao",
+        "value": "0 8px 16px -8px rgba(12, 11, 36, 0.62)",
+        "purpose": "Só o botão amarelo; no hover 0 12px 20px -10px com subida de 2px."
+      },
+      {
+        "name": "topo-rolado",
+        "value": "0 10px 22px -12px rgba(12, 11, 36, 0.62)",
+        "purpose": "Cabeçalho depois de 8px de rolagem."
+      }
+    ],
+    "motion": [
+      {
+        "name": "pintura-de-linha",
+        "value": "linear, duração = comprimento / 2600 unidades SVG por segundo",
+        "purpose": "O carrinho de pintura não acelera: linhas da abertura e marcações das seções (na rolagem, scrub 0.8)."
+      },
+      {
+        "name": "entrada",
+        "value": "expo.out (≈ cubic-bezier(0.16, 1, 0.3, 1)), 1–1.3s",
+        "purpose": "Títulos sobem linha a linha por máscara; plaquetas sobem 18px."
+      },
+      {
+        "name": "rolo-de-tinta",
+        "value": "clip-path inset(0 0 100% 0) → inset(0), expo.out 1.3s",
+        "purpose": "Fotos entram de cima para baixo; o garrafão do PIX é pintado de baixo para cima."
+      },
+      {
+        "name": "placar-liga",
+        "value": "88:88 em 0.8s, apaga em 1.18s, valores em 1.34s",
+        "purpose": "Teste de ligação do placar na abertura."
+      },
+      {
+        "name": "bola",
+        "value": "queda bounce.out 1.5s (escala 2.6 → 1); rotação = deslocamento / raio",
+        "purpose": "Bola na lateral (≥1101px) que rola com a página e volta ao topo no clique."
+      },
+      {
+        "name": "estado",
+        "value": "cubic-bezier(0.2, 0.7, 0.1, 1), 0.25–0.4s",
+        "purpose": "Hover de botões e traço das âncoras."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "sem-nome-longo",
+        "value": "1180px"
+      },
+      {
+        "name": "tablet",
+        "value": "1000px"
+      },
+      {
+        "name": "celular",
+        "value": "640px"
+      },
+      {
+        "name": "celular-estreito",
+        "value": "380px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Botão Doar",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "A única superfície amarela preenchida: toda ação de doar.",
+      "html": "<a class=\"ds-btn-doar\" href=\"#doar\">Quero ajudar <svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M5 12h14M13 6l6 6-6 6\"/></svg></a>",
+      "css": ".ds-btn-doar{display:inline-flex;align-items:center;gap:.6rem;min-height:3rem;padding:.95rem 1.35rem;border:2px solid #F4C23A;border-radius:2px;background:#F4C23A;color:#1D1C45;font:800 1.0625rem/1.32 \"Atkinson Hyperlegible Next\",system-ui,sans-serif;text-decoration:none;box-shadow:0 8px 16px -8px rgba(12,11,36,.62);transition:transform .25s cubic-bezier(.2,.7,.1,1),background-color .2s}.ds-btn-doar svg{width:1.2rem;height:1.2rem;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}.ds-btn-doar:hover{background:#FFD45C;border-color:#FFD45C;transform:translateY(-2px);box-shadow:0 12px 20px -10px rgba(12,11,36,.62)}.ds-btn-doar:focus-visible{outline:3px solid #F4C23A;outline-offset:3px}"
+    },
+    {
+      "name": "Botão de contorno",
+      "kind": "button",
+      "refersTo": "button-line",
+      "description": "Ação secundária sobre o azul-quadra: contorno branco pintado.",
+      "html": "<button class=\"ds-btn-linha\" type=\"button\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><rect x=\"9\" y=\"9\" width=\"12\" height=\"12\" rx=\"1.5\"/><path d=\"M5 15H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v1\"/></svg>Copiar chave PIX</button>",
+      "css": ".ds-btn-linha{display:inline-flex;align-items:center;gap:.6rem;min-height:3rem;padding:.95rem 1.35rem;border:2px solid #F6F5F0;border-radius:2px;background:#2F58B0;color:#FFFFFF;font:800 1.0625rem/1.32 \"Atkinson Hyperlegible Next\",system-ui,sans-serif;cursor:pointer;transition:transform .25s cubic-bezier(.2,.7,.1,1),background-color .2s}.ds-btn-linha svg{width:1.2rem;height:1.2rem;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}.ds-btn-linha:hover{background:#3A64BE;transform:translateY(-2px)}.ds-btn-linha:focus-visible{outline:3px solid #F4C23A;outline-offset:3px}"
+    },
+    {
+      "name": "Navegação do topo",
+      "kind": "nav",
+      "refersTo": "nav-link",
+      "description": "Faixa noite fixa; a seção atual ganha o traço amarelo pintado.",
+      "html": "<nav class=\"ds-nav\"><strong>ACRIC</strong><a href=\"#q\">Quem somos</a><a href=\"#o\" aria-current=\"true\">Oficinas</a><a href=\"#d\">Como doar</a><a class=\"ds-nav-doar\" href=\"#d\">Doar</a></nav>",
+      "css": ".ds-nav{display:flex;align-items:center;gap:1.6rem;padding:0 1.5rem;height:4.25rem;background:#23224A;color:#FFFFFF;font:700 .9375rem/1 \"Atkinson Hyperlegible Next\",system-ui,sans-serif}.ds-nav strong{margin-right:auto;font:900 1.75rem/1 \"Big Shoulders\",\"Arial Narrow\",sans-serif;letter-spacing:.02em}.ds-nav a{position:relative;color:#FFFFFF;text-decoration:none;padding:.5rem 0}.ds-nav a::after{content:\"\";position:absolute;left:0;right:0;bottom:-.15rem;height:3px;background:#F4C23A;transform:scaleX(0);transform-origin:left;transition:transform .4s cubic-bezier(.2,.7,.1,1)}.ds-nav a:hover::after,.ds-nav a[aria-current=\"true\"]::after{transform:scaleX(1)}.ds-nav .ds-nav-doar{padding:.7rem 1.1rem;background:#F4C23A;color:#1D1C45;border-radius:2px}.ds-nav .ds-nav-doar::after{display:none}.ds-nav a:focus-visible{outline:3px solid #F4C23A;outline-offset:3px}"
+    },
+    {
+      "name": "Placar",
+      "kind": "custom",
+      "refersTo": "scoreboard",
+      "description": "Placar de sete segmentos: células fixas, segmento apagado visível, LED âmbar.",
+      "html": "<div class=\"ds-placar\"><p class=\"ds-placar-placa\">Seg a sex · contraturno</p><div class=\"ds-placar-cel\"><span>Chegada</span><svg class=\"ds-seg\" viewBox=\"0 0 183 60\" aria-hidden=\"true\"><g transform=\"translate(7 0) skewX(-6)\"><polygon class=\"on\" points=\"31 3.5 34 6.5 34 26.5 31 29.5 28 26.5 28 6.5\"/><polygon class=\"on\" points=\"31 30.5 34 33.5 34 53.5 31 56.5 28 53.5 28 33.5\"/><polygon points=\"3.5 3 6.5 0 27.5 0 30.5 3 27.5 6 6.5 6\"/><polygon points=\"3.5 30 6.5 27 27.5 27 30.5 30 27.5 33 6.5 33\"/><polygon points=\"3.5 57 6.5 54 27.5 54 30.5 57 27.5 60 6.5 60\"/><polygon points=\"3 3.5 6 6.5 6 26.5 3 29.5 0 26.5 0 6.5\"/><polygon points=\"3 30.5 6 33.5 6 53.5 3 56.5 0 53.5 0 33.5\"/><rect class=\"on\" x=\"85\" y=\"17\" width=\"6\" height=\"6\"/><rect class=\"on\" x=\"85\" y=\"37\" width=\"6\" height=\"6\"/></g></svg></div></div>",
+      "css": ".ds-placar{display:inline-grid;gap:.55rem;padding:.7rem 1rem .95rem;background:#141330;border:2px solid #23224A;border-radius:3px;box-shadow:0 18px 36px -18px rgba(12,11,36,.62)}.ds-placar-placa,.ds-placar-cel span{margin:0;font:700 .8125rem/1 \"Atkinson Hyperlegible Next\",system-ui,sans-serif;letter-spacing:.1em;text-transform:uppercase;color:#C9CAEB}.ds-placar-cel{display:grid;gap:.4rem}.ds-seg{height:2.35rem;width:auto}.ds-seg polygon,.ds-seg rect{fill:#2B2950}.ds-seg .on{fill:#FFB23F}"
+    },
+    {
+      "name": "Plaqueta de oficina",
+      "kind": "card",
+      "refersTo": "workshop-plate",
+      "description": "Foto real em quadro reto e a mobília fixa: nome em Stencil, quem conduz e uma linha.",
+      "html": "<figure class=\"ds-oficina\"><div class=\"ds-oficina-foto\" role=\"img\" aria-label=\"Foto da oficina\"></div><figcaption><strong>Informática</strong><span><i></i>ACRIC</span><em>Cada criança no seu computador.</em></figcaption></figure>",
+      "css": ".ds-oficina{margin:0;width:16rem;display:grid;gap:1rem;padding:1rem;background:#2F58B0}.ds-oficina-foto{aspect-ratio:1;background:#23224A;box-shadow:0 18px 36px -18px rgba(12,11,36,.62)}.ds-oficina figcaption{display:grid;gap:.4rem;color:#FFFFFF}.ds-oficina strong{font:800 1.75rem/1 \"Big Shoulders Stencil\",\"Big Shoulders\",sans-serif;text-transform:uppercase;letter-spacing:.01em}.ds-oficina span{display:inline-flex;align-items:center;gap:.5rem;font:700 .8125rem/1 \"Atkinson Hyperlegible Next\",system-ui,sans-serif;letter-spacing:.1em;text-transform:uppercase;color:#D9E1F5}.ds-oficina i{width:.75rem;height:.75rem;background:#F4C23A}.ds-oficina em{font:400 1rem/1.45 \"Atkinson Hyperlegible Next\",system-ui,sans-serif;font-style:normal}"
+    },
+    {
+      "name": "Garrafão do PIX",
+      "kind": "custom",
+      "refersTo": "pix-key-zone",
+      "description": "Zona pintada plana, contorno branco e semicírculo de lance livre; a chave em mono.",
+      "html": "<div class=\"ds-pix\"><svg class=\"ds-pix-marca\" viewBox=\"0 0 420 330\" preserveAspectRatio=\"none\" aria-hidden=\"true\"><path d=\"M10 92H410V320H10Z\"/><path d=\"M150 92A60 60 0 0 1 270 92\"/></svg><div class=\"ds-pix-corpo\"><strong>PIX</strong><span>Chave CNPJ</span><code>31.726.755/0001-00</code><button type=\"button\">Copiar chave</button></div></div>",
+      "css": ".ds-pix{position:relative;width:26rem;padding:5rem 1.5rem 1.5rem;background:#2F58B0}.ds-pix-marca{position:absolute;inset:0;width:100%;height:100%;fill:none;stroke:#F6F5F0;stroke-width:5}.ds-pix-corpo{position:relative;display:grid;justify-items:start;gap:.5rem;padding:1.75rem;background:#3D3C77;color:#FFFFFF}.ds-pix strong{font:900 3rem/.9 \"Big Shoulders\",\"Arial Narrow\",sans-serif}.ds-pix span{font:700 .8125rem/1 \"Atkinson Hyperlegible Next\",system-ui,sans-serif;letter-spacing:.1em;text-transform:uppercase;color:#C9CAEB}.ds-pix code{font:600 1.625rem/1.15 \"Atkinson Hyperlegible Mono\",ui-monospace,monospace;font-variant-numeric:tabular-nums}.ds-pix button{margin-top:.75rem;padding:.95rem 1.35rem;border:2px solid #F4C23A;border-radius:2px;background:#F4C23A;color:#1D1C45;font:800 1.0625rem/1.32 \"Atkinson Hyperlegible Next\",system-ui,sans-serif;cursor:pointer}.ds-pix button:hover{background:#FFD45C}"
+    },
+    {
+      "name": "Linha da súmula",
+      "kind": "custom",
+      "refersTo": "board-row",
+      "description": "Cargo em rótulo, nome em peso 700 e o risco vermelho-cimento pintado embaixo.",
+      "html": "<ul class=\"ds-sumula\"><li><span>Presidente</span><strong>Inês Vettorazzi Nemer</strong></li><li><span>Vice-Presidente</span><strong>Silvana Paganini Passaman</strong></li></ul>",
+      "css": ".ds-sumula{margin:0;padding:1rem;list-style:none;width:22rem;background:#D5D7D7}.ds-sumula li{position:relative;display:grid;gap:.2rem;padding:.9rem 0}.ds-sumula li::after{content:\"\";position:absolute;left:0;right:0;bottom:0;height:3px;background:#C2361F}.ds-sumula span{font:700 .8125rem/1 \"Atkinson Hyperlegible Next\",system-ui,sans-serif;letter-spacing:.1em;text-transform:uppercase;color:#474670}.ds-sumula strong{font:700 1.125rem/1.3 \"Atkinson Hyperlegible Next\",system-ui,sans-serif;color:#1D1C45}"
+    }
+  ],
+  "narrative": {
+    "northStar": "A Quadra Poliesportiva",
+    "overview": "A página é a quadra pintada da escola pública vista de cima. As linhas de vários esportes se cruzam no mesmo chão, e o logo redondo da ACRIC fica no círculo central. Cada seção é uma zona dessa quadra:\n\n- **Abertura:** o centro da quadra.\n- **Quem somos:** fora da quadra, no cimento.\n- **Oficinas:** o garrafão de basquete, em amarelo.\n- **Parceria com a Rochativa:** a quadra de vôlei, em vermelho.\n- **Como doar:** o garrafão índigo com o semicírculo do lance livre.\n- **Diretoria:** a súmula.\n- **Contato:** a área do gol na linha de fundo.\n\nA densidade é de escola viva: fotos reais das crianças em quantidade, texto enxuto, números só onde a própria quadra os mostraria (o placar). O mundo é saturado e quente sem ser infantil. O azul do uniforme e das cortinas da sede ocupa superfícies inteiras, e o amarelo aparece onde há ação. As fotos nunca levam véu escuro. O usuário vetou o visual frio ou corporativo e a \"ONG genérica\" (mãos, corações, tons pastel).\n\nO movimento pertence ao material: as linhas são pintadas em velocidade constante, como o carrinho de pintura de quadra, e isso acontece na abertura e conforme a rolagem. O placar liga mostrando 88:88 antes dos valores. A bola rola pela lateral e gira exatamente o quanto se deslocou.",
+    "keyCharacteristics": [
+      "piso azul-quadra com grão de cimento, garrafões em índigo e cimento claro fora da quadra;",
+      "linhas pintadas nítidas, uma cor por seção, que se cruzam só no centro;",
+      "letreiro condensado Big Shoulders, com a versão Stencil para o que é pintado no chão;",
+      "texto em Atkinson Hyperlegible Next, pensado para leitura fácil;",
+      "placar de sete segmentos em LED âmbar;",
+      "zonas pintadas e planas: sombra só em objeto físico."
+    ],
+    "rules": [
+      {
+        "name": "The Amarelo é Ação Rule",
+        "body": "O amarelo preenchido aparece só no que se pode apertar. Como linha pintada, ele demarca o basquete, mas nunca vira fundo de bloco que não seja ação.",
+        "section": "colors"
+      },
+      {
+        "name": "The Uma Cor por Seção Rule",
+        "body": "Cada seção carrega uma única cor de linha (verde, amarela, vermelha, branca). As quatro só se cruzam no centro da quadra, na abertura.",
+        "section": "colors"
+      },
+      {
+        "name": "The Sem Véu Rule",
+        "body": "Foto de criança nunca leva véu escuro. Quando um texto precisa ficar sobre foto, ele vai numa placa índigo pintada, com o filete branco por dentro.",
+        "section": "colors"
+      },
+      {
+        "name": "The Sem Sobretítulo Rule",
+        "body": "Nenhum rótulo em cima de título. Rótulo só existe como legenda de dado (cargo, banco, chegada), sempre abaixo ou ao lado do que descreve.",
+        "section": "typography"
+      },
+      {
+        "name": "The Mono é Dado Rule",
+        "body": "A fonte mono aparece só em número que alguém vai digitar (chave, agência, conta, CNPJ), nunca como enfeite.",
+        "section": "typography"
+      },
+      {
+        "name": "The Chão Não Faz Sombra Rule",
+        "body": "O que é pintado no chão não projeta sombra. Se um bloco é zona da quadra, ele se delimita com linha pintada.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** cubra seções inteiras com azul-quadra (#2F58B0) ou índigo (#3D3C77), sempre com o grão de cimento por cima.",
+      "**Do** pinte as linhas em velocidade constante (duração proporcional ao comprimento, sem easing), tanto na abertura quanto na rolagem.",
+      "**Do** use uma cor de linha por seção, e deixe as quatro se cruzarem só no círculo central.",
+      "**Do** mostre as fotos reais das crianças abertas, em quadros retos, com parallax dentro da moldura.",
+      "**Do** mantenha o Doar amarelo alcançável de qualquer ponto, inclusive no cabeçalho do celular.",
+      "**Do** deixe todo o conteúdo visível sem JavaScript e com movimento reduzido: nesse caso, as linhas aparecem já pintadas e paradas."
+    ],
+    "donts": [
+      "**Don't** ponha véu escuro sobre foto de criança; texto sobre foto vai numa placa índigo pintada.",
+      "**Don't** use mãos, corações, tons pastel ou cartões de ícone. O usuário vetou a \"ONG genérica\" e o visual frio ou corporativo.",
+      "**Don't** dê sombra a zona pintada da quadra.",
+      "**Don't** use amarelo preenchido em nada que não seja ação.",
+      "**Don't** ponha rótulo ou sobretítulo em cima de título.",
+      "**Don't** use a fonte mono fora de dado digitável.",
+      "**Don't** use brilho sem deslocamento (glow) atrás de texto. Onde as linhas cruzam um texto corrido, o texto ganha um remendo de piso."
+    ]
+  }
+}
